@@ -5,6 +5,7 @@
 // @run-at      document-end
 // @grant       GM_addStyle
 // @require     http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js
+// @downloadURL https://github.com/fuminchao/monkeyscripts/raw/master/bing2google.user.js
 // @version     1
 // ==/UserScript==
 
