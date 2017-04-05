@@ -1,6 +1,8 @@
 // ==UserScript==
 // @name        bing2google
 // @namespace   com.github.fuminchao.monkeyscripts
+// @author      fuminchao@outlook.com
+// @description Add button to navigate from bing.com to google.com, with keyword
 // @include     https://www.bing.com/search*
 // @run-at      document-end
 // @grant       GM_addStyle
