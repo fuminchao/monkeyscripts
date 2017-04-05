@@ -8,7 +8,7 @@
 // @grant       GM_addStyle
 // @require     http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js
 // @downloadURL https://github.com/fuminchao/monkeyscripts/raw/master/bing2google.user.js
-// @version     1
+// @version     1.1
 // ==/UserScript==
 
 (function( document, window, $, GM_addStyle ){
@@ -33,7 +33,7 @@
 
   // button action
   $(document).delegate(`#${buttonId}`, 'click', function(){
-    var searchQ = (/\bq=([^\&]+)\&/.exec( window.location ) || ['',''])[1];
+    var searchQ = (/\bq=([^\&]+)\&?/.exec( window.location ) || ['',''])[1];
     window.location = `https://www.google.com/search?q=${searchQ}&ie=utf-8&oe=utf-8`;
   });
 
