@@ -2,7 +2,7 @@
 // @name        inoreader.noad
 // @namespace   com.github.fuminchao.monkeyscripts
 // @author      fuminchao@outlook.com
-// @description Hide adventise on the page of inoreader.com
+// @description Hide advertise on the page of inoreader.com
 // @include     *://www.inoreader.com/*
 // @run-at      document-start
 // @grant       GM_addStyle
