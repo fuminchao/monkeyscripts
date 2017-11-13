@@ -3,7 +3,7 @@
 // @namespace   com.github.fuminchao.monkeyscripts
 // @author      fuminchao@outlook.com
 // @description Hide advertise on the page of inoreader.com
-// @include     *://www.inoreader.com/*
+// @include     *://*.inoreader.com/*
 // @run-at      document-start
 // @grant       GM_addStyle
 // @downloadURL https://github.com/fuminchao/monkeyscripts/blob/master/inoreader.noad.user.js
@@ -26,6 +26,7 @@
     #parent_tags,
     #parent_teams,
     #parent_web_pages,
+    .ad_everything_read,
     .ad_title.ad_title_centered
     {
       display:none !important;

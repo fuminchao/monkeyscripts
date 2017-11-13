@@ -25,6 +25,8 @@
       display: inline-block;
       border-width: 0;
       margin: 0;
+      height: 100%;
+      width: 42px;
 
       position:absolute;
       background: transparent url(https://www.google.com/favicon.ico) no-repeat center center;
