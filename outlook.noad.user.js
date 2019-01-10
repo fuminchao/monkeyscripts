@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         outlook.noad
 // @namespace    io.github.fuminchao
-// @version      0.1
+// @version      0.2
 // @description
-// @author       You
-// @match        https://outlook.live.com/mail/inbox*
+// @author       fuminchao@outlook.com
+// @match        https://outlook.live.com/*
 // @grant        GM_addStyle
-// @downloadURL  https://github.com/fuminchao/monkeyscripts/raw/master/outlook.noad.user.js
 // @run-at       document-start
 // ==/UserScript==
 
