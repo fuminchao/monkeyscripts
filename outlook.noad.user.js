@@ -7,6 +7,7 @@
 // @match        https://outlook.live.com/*
 // @grant        GM_addStyle
 // @run-at       document-start
+// @downloadURL https://github.com/fuminchao/monkeyscripts/blob/master/outlook.noad.user.js
 // ==/UserScript==
 
 (function() {
