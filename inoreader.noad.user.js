@@ -7,7 +7,7 @@
 // @run-at      document-start
 // @grant       GM_addStyle
 // @downloadURL https://github.com/fuminchao/monkeyscripts/blob/master/inoreader.noad.user.js
-// @version     1
+// @version     1.1
 // ==/UserScript==
 
 (function( GM_addStyle ) {
@@ -29,7 +29,11 @@
     .ad_everything_read,
     .ad_title.ad_title_centered
     {
-      display:none !important;
+      visibility:hidden !important;
+      height: 0 !important;
+      border: 0 !important;
+      padding: 0 !important;
+      margin: 0 !important;
     }
 
     #link_0_1867726 {
