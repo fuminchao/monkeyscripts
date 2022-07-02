@@ -17,5 +17,8 @@
     #app > div.ms-Fabric > div:last-child > div:first-child > div:first-child > div:last-child {
       display: none;
     }
+    #MainModule > div > div > div:last-child {
+      display: none;
+    }
   `);
 })();
